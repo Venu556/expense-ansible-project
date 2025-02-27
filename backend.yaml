@@ -21,7 +21,7 @@
      
   
   - name: create the expense user # ansible user module
-     ansible.builtin.user:
+    ansible.builtin.user:
       name: expense
 
   - name: create the app directory # ansible directory module
